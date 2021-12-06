@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+    android:layout_width="match_parent"
+        android:background="#8b0000"
+    android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:background="#f08080"
+            android:id="@+id/tool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/tvDiscoverMovies"
+                android:text="Movie Maniac"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </androidx.appcompat.widget.Toolbar>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recyclerView"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</layout>

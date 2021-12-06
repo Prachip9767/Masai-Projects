@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".ui.MovieDetailsFragment"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+   >
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/ivImage"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="300dp" />
+
+        <TextView
+            android:id="@+id/Releasedate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ivImagePreview"
+            android:layout_marginStart="10dp"
+            android:text="Release Date"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvAuthor"
+            android:layout_marginStart="10dp"
+            android:text="language"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/popularity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTitle"
+            android:layout_marginStart="10dp"
+            android:text="popularity"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/revenue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDescription"
+            android:layout_marginStart="10dp"
+            android:text="Revenue"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/overView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvContent"
+            android:layout_marginStart="10dp"
+            android:text="Overview"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    </layout>
+
+
